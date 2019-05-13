@@ -14,5 +14,5 @@ gst-launch-1.0 -v v4l2src device=/dev/video1 ! 'video/x-raw,width=640, height=48
 ./darknet detector demo cfg/coco.data cfg/yolov3.cfg yolov3.weights /dev/video1
 
 
-#with tiny 
-/darknet detector demo cfg/coco.data cfg/yolov3-tiny.cfg yolov3-tinyw.eights /dev/video1
+#with tiny
+./darknet detector demo cfg/coco.data cfg/yolov3-tiny.cfg yolov3-tinyw.eights /dev/video1
